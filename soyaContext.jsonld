@@ -1,0 +1,70 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "@base": "https://soya.data-container.net/Citizenship/",
+        "Citizenship": {
+            "@id": "Citizenship",
+            "@type": "@id"
+        },
+        "PermanentResidentCard": {
+            "@id": "PermanentResidentCard",
+            "@type": "@id"
+        },
+        "PermanentResident": {
+            "@id": "PermanentResident",
+            "@type": "@id"
+        },
+        "description": {
+            "@id": "description",
+            "@type": "xsd:string"
+        },
+        "name": {
+            "@id": "name",
+            "@type": "xsd:string"
+        },
+        "identifier": {
+            "@id": "identifier",
+            "@type": "xsd:string"
+        },
+        "image": {
+            "@id": "image",
+            "@type": "xsd:string"
+        },
+        "birthCountry": {
+            "@id": "birthCountry",
+            "@type": "xsd:string"
+        },
+        "birthDate": {
+            "@id": "birthDate",
+            "@type": "xsd:date"
+        },
+        "commuterClassification": {
+            "@id": "commuterClassification",
+            "@type": "xsd:string"
+        },
+        "familyName": {
+            "@id": "familyName",
+            "@type": "xsd:string"
+        },
+        "gender": {
+            "@id": "gender",
+            "@type": "xsd:string"
+        },
+        "givenName": {
+            "@id": "givenName",
+            "@type": "xsd:string"
+        },
+        "lprCategory": {
+            "@id": "lprCategory",
+            "@type": "xsd:string"
+        },
+        "lprNumber": {
+            "@id": "lprNumber",
+            "@type": "xsd:string"
+        },
+        "residentSince": {
+            "@id": "residentSince",
+            "@type": "xsd:date"
+        }
+    }
+}
