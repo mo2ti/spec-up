@@ -1,0 +1,46 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@import": "https://ns.ownyourdata.eu/ns/soya-context.json",
+    "@base": "https://soya.data-container.net/PermanentResidentCardAglinmant/",
+    "schema": "http://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "givenName",
+      "rdfs:subPropertyOf": [
+        "schema:givenName"
+      ]
+    },
+    {
+      "@id": "familyName",
+      "rdfs:subPropertyOf": [
+        "familyName"
+      ]
+    },
+    {
+      "@id": "gender",
+      "rdfs:subPropertyOf": [
+        "schema:gender"
+      ]
+    },
+    {
+      "@id": "image",
+      "rdfs:subPropertyOf": [
+        "schema:gender"
+      ]
+    },
+    {
+      "@id": "birthDate",
+      "rdfs:subPropertyOf": [
+        "schema:birthDate"
+      ]
+    },
+    {
+      "@id": "OverlayAlignment",
+      "@type": "OverlayAlignment",
+      "onBase": "PermanentResidentCard",
+      "name": "SchemaAlignmentOverlay"
+    }
+  ]
+}
