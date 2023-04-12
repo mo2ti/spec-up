@@ -1,0 +1,77 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@import": "https://ns.ownyourdata.eu/ns/soya-context.json",
+    "@base": "https://soya.data-container.net/PermanentResidentCardAglinmantContext/",
+    "ctzn": "https://w3id.org/citizenship#",
+    "schema": "http://schema.org/"
+  },
+  "@graph": [
+    {
+      "@id": "schema:givenName",
+      "rdfs:subPropertyOf": [
+        "String"
+      ]
+    },
+    {
+      "@id": "schema:familyName",
+      "rdfs:subPropertyOf": [
+        "String"
+      ]
+    },
+    {
+      "@id": "schema:gender",
+      "rdfs:subPropertyOf": [
+        "String"
+      ]
+    },
+    {
+      "@id": "image",
+      "rdfs:subPropertyOf": [
+        "schema:image"
+      ]
+    },
+    {
+      "@id": "residentSince",
+      "rdfs:subPropertyOf": [
+        "ctzn:residentSince"
+      ]
+    },
+    {
+      "@id": "lprCategory",
+      "rdfs:subPropertyOf": [
+        "ctzn:lprCategory"
+      ]
+    },
+    {
+      "@id": "lprNumber",
+      "rdfs:subPropertyOf": [
+        "ctzn:lprNumber"
+      ]
+    },
+    {
+      "@id": "commuterClassification",
+      "rdfs:subPropertyOf": [
+        "ctzn:commuterClassification"
+      ]
+    },
+    {
+      "@id": "brithContry",
+      "rdfs:subPropertyOf": [
+        "ctzn:brithContry"
+      ]
+    },
+    {
+      "@id": "birthDate",
+      "rdfs:subPropertyOf": [
+        "schema:birthDate"
+      ]
+    },
+    {
+      "@id": "OverlayAlignment",
+      "@type": "OverlayAlignment",
+      "onBase": "https://soya.ownyourdata.eu/PermanentResidentCard",
+      "name": "PermanentResidentCardAglinmantContext"
+    }
+  ]
+}
