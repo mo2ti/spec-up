@@ -1,0 +1,36 @@
+{
+  "@context": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "ex": "http://example.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "startTime": {
+      "@id": "prov:startedAtTime",
+      "@type": "xsd:dateTime"
+    },
+    "endTime": {
+      "@id": "prov:endedAtTime",
+      "@type": "xsd:dateTime"
+    }
+  },
+  "@id": "ex:experiment4",
+  "@type": "prov:Activity",
+  "prov:wasAssociatedWith": {
+    "@id": "ex:researcher4",
+    "@type": "prov:Agent",
+    "foaf:name": "Dr. Emily Williams"
+  },
+  "prov:used": {
+    "@id": "ex:dataset4",
+    "@type": "prov:Entity",
+    "foaf:name": "Dataset D"
+  },
+  "prov:generated": {
+    "@id": "ex:result4",
+    "@type": "prov:Entity",
+    "foaf:name": "Analysis Result D"
+  },
+  "startTime": "2023-04-24T09:00:00Z",
+  "endTime": "2023-04-24T13:00:00Z"
+}
